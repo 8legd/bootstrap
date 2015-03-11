@@ -20,6 +20,10 @@ install:
 after_script:
   - if [ "$TRAVIS_REPO_SLUG" != twbs-savage/bootstrap ] && [ "$TWBS_TEST" = core ]; then ./test-infra/s3_cache.py upload npm-modules; fi
   - if [ "$TRAVIS_REPO_SLUG" != twbs-savage/bootstrap ] && [ "$TWBS_TEST" = validate-html ] && [ $TWBS_DO_VALIDATOR -ne 0 ]; then ./test-infra/s3_cache.py upload rubygems; fi
+after_success:
+  - git checkout -- docs/assets/css/docs.min.css
+  - git checkout -- docs/assets/js/customize.min.js
+  - git checkout -- docs/assets/js/raw-files.min.js
 deploy:
   provider: s3
   access_key_id:
