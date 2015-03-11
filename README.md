@@ -1,6 +1,6 @@
 [![Build Status](https://img.shields.io/travis/8legd/bootstrap3-theme-water/master.svg?style=flat)](https://travis-ci.org/8legd/bootstrap3-theme-water)
 
-Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat), and maintained by the [core team](https://github.com/orgs/twbs/people) with the massive support and involvement of the community... and this is a theme based on it :)
+Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat), and maintained by the [core team](https://github.com/orgs/twbs/people) with the massive support and involvement of the community... and this is a theme based on it }}8{{
 
 To get started, check out <http://getbootstrap.com>!
 
