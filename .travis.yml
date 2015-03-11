@@ -5,6 +5,7 @@ node_js:
   - "0.12"
 install:
   - npm install -g grunt-cli
+  - npm install
 script: grunt test-js
 after_success: grunt dist
 deploy:
