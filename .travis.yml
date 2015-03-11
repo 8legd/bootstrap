@@ -9,7 +9,7 @@ install:
 script: grunt test-js
 after_success: 
   - grunt dist
-  - git add dist
+  - git add .
 deploy:
   provider: s3
   access_key_id:
