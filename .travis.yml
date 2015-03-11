@@ -27,5 +27,5 @@ deploy:
     secure: iHf0K5aeqhlkRI+AacPClXcE1rTB+qI4St0zWXUvjxWrxeaLRtrNpbF7tEeoVgk4ZpwS6VIeJblpBSjayEoUvDdJmQMQhQosTHx52hn2avU8dKCU6yTJ+U3ClQg8Dh10SzC0Jiv4E9I4wfCDcT+/xewvs2kj/d5JuOLgufAVHZs=
   bucket: "cloudfront-eu-w"
   region: "eu-west-1"
-  local_dir: bootstrap
+  local_dir: init
   upload-dir: 8legd/bootstrap3-theme-water
