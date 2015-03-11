@@ -7,7 +7,9 @@ install:
   - npm install -g grunt-cli
   - npm install
 script: grunt test-js
-after_success: grunt dist
+after_success: 
+  - grunt dist
+  - git add dist
 deploy:
   provider: s3
   access_key_id:
