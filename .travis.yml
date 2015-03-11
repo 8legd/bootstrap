@@ -11,9 +11,9 @@ after_success: grunt dist
 deploy:
   provider: s3
   access_key_id:
-    secure: FpgDfgXa4gtzj5BGcXeB1rmPp3LSOl9yVhHepbBV2jEZaIFM2wOOvaTikq0/jFEJjM7dJghu3LS3wKVHiaimmabGP7brOHrpbPqFg4nQohPFrSPInx5O7TJZ5lmMvyuRRNB+iQRnpVCjzK9KaLc7SY6JaP4SOUgigFB6R6a6DhA=
+    secure: leB8EozPiLBG1XJZ63jZ9V4DT8YvcX8ve6x2HrJKdmKuMQE2uu6NlDzSpzaELTExVTWJLBRZymVs2xUsYD4KpX6mDOSah6NuJf6oeSG4r1OqzDVvDx+1sZp4FeuY9tJIHNnE5Y4VbnZXuQNLFt4VDwfuxX5DYJGTzpZzm6B+Le0=
   secret_access_key:
-    secure: iHf0K5aeqhlkRI+AacPClXcE1rTB+qI4St0zWXUvjxWrxeaLRtrNpbF7tEeoVgk4ZpwS6VIeJblpBSjayEoUvDdJmQMQhQosTHx52hn2avU8dKCU6yTJ+U3ClQg8Dh10SzC0Jiv4E9I4wfCDcT+/xewvs2kj/d5JuOLgufAVHZs=
+    secure: VQ93Dju5pmCGJbJaY4yhcQSplkd49n/cUocYrtqZJAhJS8TYNMNqthvD1l3X8YZd1np2ndSX2B49vEIAUTWcU5Nwo6BOVDoMDLxYVgKHlbBODp84c4x8aCj0QKU/tQSuyfNw8I8dDlGllgWHMbBa4Ubbinf51v0CkKha2lBr5v8=
   bucket: "cloudfront-eu-w"
   region: "eu-west-1"
   local_dir: dist
