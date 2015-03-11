@@ -5,10 +5,8 @@ node_js:
   - "0.12"
 install:
   - npm install -g grunt-cli
-after_success:
-  - git checkout -- docs/assets/css/docs.min.css
-  - git checkout -- docs/assets/js/customize.min.js
-  - git checkout -- docs/assets/js/raw-files.min.js
+script: grunt test-js
+after_success: grunt dist
 deploy:
   provider: s3
   access_key_id:
